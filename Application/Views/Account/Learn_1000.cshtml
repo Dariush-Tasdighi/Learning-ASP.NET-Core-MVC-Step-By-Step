@@ -1,0 +1,62 @@
+﻿@{
+	Layout = "";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Login</title>
+
+	<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="~/vendors/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+
+	<style>
+		form {
+			margin: auto;
+			max-width: 300px;
+		}
+	</style>
+</head>
+
+<body class="p-3 bg-dark text-center">
+
+	<form class="p-3 bg-white border-2 border-dark shadow">
+		<img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg"
+			 alt="Bootstrap Logo" height="72" />
+
+		<h1 class="h3 mt-3">
+			Login
+		</h1>
+
+		<div class="form-group mt-3">
+			<label for="emailAddress" class="visually-hidden-focusable">Email Address</label>
+			<input type="email" id="emailAddress" class="form-control"
+				   placeholder="Email Address" required autofocus />
+		</div>
+
+		<div class="form-group mt-3">
+			<label for="password" class="visually-hidden-focusable">Password</label>
+			<input type="password" id="password" class="form-control"
+				   placeholder="Password" required />
+		</div>
+
+		<div class="form-group form-check text-start mt-3">
+			<input type="checkbox" id="rememberMe" class="form-check-input" value="rememberMe" />
+			<label class="form-check-label" for="rememberMe">
+				Remember Me
+			</label>
+		</div>
+
+		<div class="form-group mt-3">
+			<button type="submit" class="btn btn-primary btn-block">Login</button>
+			<button type="reset" class="btn btn-primary btn-block">Reset</button>
+		</div>
+	</form>
+
+</body>
+
+</html>

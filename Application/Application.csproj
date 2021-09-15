@@ -6,11 +6,19 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+	  <None Remove="Views\Account\Login - Copy.cshtml.BAK" />
+	  <None Remove="Views\Account\Login.cshtml.BAK" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<Folder Include="wwwroot\" />
+	  <Content Include="Views\Account\Login - Copy.cshtml.BAK">
+	    <DependentUpon>Login.cshtml.BAK</DependentUpon>
+	  </Content>
+	  <Content Include="Views\Account\Login.cshtml.BAK" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
 	</ItemGroup>
 
 </Project>
