@@ -25,5 +25,35 @@
 		{
 			return View();
 		}
+
+		public Microsoft.AspNetCore.Mvc.ViewResult Learn_1300()
+		{
+			return View();
+		}
+
+		public Microsoft.AspNetCore.Mvc.ViewResult Learn_1400()
+		{
+			return View();
+		}
+
+		public Microsoft.AspNetCore.Mvc.ViewResult Learn_1500()
+		{
+			return View();
+		}
+
+		public Microsoft.AspNetCore.Mvc.ViewResult Learn_1600()
+		{
+			return View();
+		}
+
+		public Microsoft.AspNetCore.Mvc.ViewResult Learn_1700()
+		{
+			return View();
+		}
+
+		public Microsoft.AspNetCore.Mvc.ViewResult Learn_1800()
+		{
+			return View();
+		}
 	}
 }
