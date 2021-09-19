@@ -1,0 +1,82 @@
+﻿@{
+	Layout = "";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Login</title>
+
+	<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="~/vendors/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+
+	<style>
+		.shadow {
+			box-shadow: 0 .5rem 1rem rgba(0,0,0,1.0) !important;
+		}
+	</style>
+</head>
+
+<body class="bg-secondary g-0">
+
+	<div class="w-100 min-vh-100 d-flex justify-content-center align-items-center g-0">
+		<div class="row g-0">
+			<div class="col-12 bg-white border-2 border-dark shadow p-1 p-sm-2 p-md-3 p-lg-4 p-xl-5 g-0">
+
+				<form autocomplete="off">
+					<div class="form-group text-center">
+						<img src="~/images/logo/Security.png" alt="ZEUS" class="img-fluid" />
+					</div>
+
+					<h1 class="h3 text-center mt-3">
+						Login
+					</h1>
+
+					<div class="input-group mt-3">
+						<label for="emailAddress" class="visually-hidden-focusable">Email Address</label>
+						<span class="input-group-text bi-envelope" id="emailAddressAddon"></span>
+						<input type="email" id="emailAddress" class="form-control"
+							   placeholder="Email Address" required autofocus
+							   aria-label="Email Address" aria-describedby="emailAddressAddon" />
+					</div>
+
+					<div class="input-group mt-3">
+						<label for="password" class="visually-hidden-focusable">Password</label>
+						<span class="input-group-text bi-key-fill" id="passwordAddon"></span>
+						<input type="password" id="password" class="form-control"
+							   placeholder="Password" required
+							   aria-label="Password" aria-describedby="passwordAddon" />
+					</div>
+
+					<div class="form-group form-check mt-3">
+						<input type="checkbox" id="rememberMe" class="form-check-input" value="rememberMe" />
+						<label class="form-check-label" for="rememberMe">
+							Remember Me
+						</label>
+					</div>
+
+					<div class="form-group text-center mt-3">
+						<button type="submit" class="btn btn-primary">Login</button>
+						<button type="reset" class="btn btn-primary">Reset</button>
+					</div>
+
+					<div class="text-center fs-6 mt-3">
+						<hr />
+						©2021 - <a href="https://aien.net/">ZEUS</a>
+						<br />
+						<a href="#">Register</a> -
+						<a href="#">Forgot Password</a>
+					</div>
+				</form>
+
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

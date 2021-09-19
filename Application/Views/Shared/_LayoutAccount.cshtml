@@ -1,0 +1,41 @@
+﻿@{
+	Layout = "";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>@(ViewData["Title"])</title>
+
+	<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="~/vendors/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+
+	<style>
+		.shadow {
+			box-shadow: 0 .5rem 1rem rgba(0,0,0,1.0) !important;
+		}
+	</style>
+</head>
+
+<body class="bg-secondary g-0">
+
+	<div class="w-100 min-vh-100 d-flex justify-content-center align-items-center g-0">
+		<div class="row g-0">
+			<div class="col-12 bg-white border-2 border-dark shadow p-1 p-sm-2 p-md-3 p-lg-4 p-xl-5 g-0">
+
+				@(RenderBody())
+
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+</body>
+
+</html>

@@ -6,11 +6,17 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <None Remove="Views\Account\Learn_1000.cshtml.BAK" />
+	  <None Remove="Views\Account\Learn_1100.cshtml.BAK" />
+	  <None Remove="Views\Account\Learn_1200.cshtml.BAK" />
 	  <None Remove="Views\Account\Login - Copy.cshtml.BAK" />
 	  <None Remove="Views\Account\Login.cshtml.BAK" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Content Include="Views\Account\Learn_1000.cshtml.BAK" />
+	  <Content Include="Views\Account\Learn_1100.cshtml.BAK" />
+	  <Content Include="Views\Account\Learn_1200.cshtml.BAK" />
 	  <Content Include="Views\Account\Login - Copy.cshtml.BAK">
 	    <DependentUpon>Login.cshtml.BAK</DependentUpon>
 	  </Content>

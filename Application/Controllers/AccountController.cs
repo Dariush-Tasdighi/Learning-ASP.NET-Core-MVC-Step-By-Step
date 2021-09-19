@@ -21,6 +21,21 @@
 			return View();
 		}
 
+		public Microsoft.AspNetCore.Mvc.ViewResult Learn_0300()
+		{
+			return View();
+		}
+
+		public Microsoft.AspNetCore.Mvc.ViewResult Learn_0400()
+		{
+			return View();
+		}
+
+		public Microsoft.AspNetCore.Mvc.ViewResult Learn_0500()
+		{
+			return View();
+		}
+
 
 
 		public Microsoft.AspNetCore.Mvc.ViewResult Learn_1000()
