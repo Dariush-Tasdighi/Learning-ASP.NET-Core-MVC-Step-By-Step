@@ -11,6 +11,7 @@
 	  <None Remove="Views\Account\Learn_1200.cshtml.BAK" />
 	  <None Remove="Views\Account\Login - Copy.cshtml.BAK" />
 	  <None Remove="Views\Account\Login.cshtml.BAK" />
+	  <None Remove="Views\Shared\_LayoutAccount.cshtml.BAK" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -21,6 +22,7 @@
 	    <DependentUpon>Login.cshtml.BAK</DependentUpon>
 	  </Content>
 	  <Content Include="Views\Account\Login.cshtml.BAK" />
+	  <Content Include="Views\Shared\_LayoutAccount.cshtml.BAK" />
 	</ItemGroup>
 
 	<ItemGroup>

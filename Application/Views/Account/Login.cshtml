@@ -13,7 +13,7 @@
 		Login
 	</h1>
 
-	<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+	<div asp-validation-summary="ModelOnly" class="text-danger fw-bold"></div>
 
 	<div class="form-group mt-3">
 		<div class="input-group">
@@ -21,7 +21,7 @@
 			<span class="input-group-text bi-envelope"></span>
 			<input asp-for="EmailAddress" class="form-control" placeholder="Email Address" />
 		</div>
-		<span asp-validation-for="EmailAddress" class="text-danger"></span>
+		<span asp-validation-for="EmailAddress" class="text-danger fw-bold"></span>
 	</div>
 
 	<div class="form-group mt-3">
@@ -30,7 +30,7 @@
 			<span class="input-group-text bi-key-fill"></span>
 			<input asp-for="Password" class="form-control" placeholder="Password" />
 		</div>
-		<span asp-validation-for="Password" class="text-danger"></span>
+		<span asp-validation-for="Password" class="text-danger fs-6 fw-bold"></span>
 	</div>
 
 	<div class="form-group form-check mt-3">
